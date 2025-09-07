@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lavenderblush;
+    color:rgb(30, 50, 142);
+    font-family: "Cabin", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    font-size: 1.5rem;
+    color: rgb(9, 22, 81);
+    padding: 2rem;
+    background-color:rgb(138, 121, 244) ;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+
+.perfil {
+    text-align:center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.perfil p {
+    font-size: 1.3rem;
+    margin: 0.3rem 0;
+    color: rgb(9, 22, 81);
+}
+
+main {
+    padding: 4rem 3rem;
+}
+
+fieldset {
+    font-size: 1.2rem;
+    border: 4px solid rgb(192, 183, 255) ;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+legend {
+    font-size: 2rem;
+    color: rgb(9, 22, 81);
+    padding: 0 1rem;
+}
+
+.caixa {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.projetos {
+    display: flex;              
+    justify-content: space-around; 
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.projeto {
+    background-color: rgb(192, 183, 255);
+    border: 2px solid rgb(9, 22, 81);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgb(9, 22, 81);
+    transition: transform 0.3s;
+}
+
+h2{
+    font-size: 2rem;
+    padding:2rem;
+}
+
+.projeto:hover {
+    transform: scale(1.2);  
+}
+
+a {
+    text-decoration: none;
+    color:rgb(9, 22, 81);
+}
+
+footer{
+    font-size: 1.5rem;
+    background-color:rgb(138, 121, 244);
+    padding: 2rem;
+    text-align: center;
+}

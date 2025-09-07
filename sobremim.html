@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-sobre-mim.css">
 </head>
+
 <body>
-    <h1>Sobre Mim</h1>
-    <img src="https://avatars.githubusercontent.com/u/197986481?v=4" alt="">
-    <h2>Isabella Lopreti</h2>
-    <p>Oi, eu sou a Isa! Tenho 17 anos, nasci e moro em Osasco - São Paulo. <br>No comecinho de 2025, embarquei no curso de Desenvolvimento de Sistemas na instituição Senai, e devo terminar lá pelo segundo semestre de 2026 (sim, já estou contando os dias rs 😅). <br>Cada aula é uma descoberta nova — estou aprendendo muitos recursos diferentes e sinto que evoluo um pouquinho a cada dia. <br>Esse projeto é parte do meu aprendizado em HTML, e logo pretendo me aventurar também por CSS e JavaScript. <br>Pode não estar perfeito ainda, mas é feito com carinho e muita vontade de aprender 💻✨.</p>
-    <h2>GitHub</h2>
-    <p>Para acessar mais projetos pessoais <a href="https://github.com/lopreti" target="_blank"> acesse aqui meu GitHub!</a> </p>
-</body>
+    <header>
+        <h1>Isabella Gonçalves Lopreti</h1>
+    </header>
+
+    <div class="caixa">
+        <div class="perfil">
+            <img src="https://avatars.githubusercontent.com/u/197986481?v=4" alt="minha foto" class="foto"> 
+                <div class="contato">
+                        <p>lopretiisabella@gmail.com</p>
+                        <p>+55 11 97638-2967</p>
+                        <p>São Paulo</p>
+                </div>
+        </div>
+
+        <main>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Sobre Mim</legend>
+                        <p>
+                            Oi, eu sou a Isa! Tenho 17 anos, nasci e moro em Osasco - São Paulo. <br>No comecinho de 2025, embarquei no
+                            curso de Desenvolvimento de Sistemas na instituição Senai, e devo terminar lá pelo segundo semestre de 2026 (sim,já
+                            estou contando os dias rs). <br>Cada aula é uma descoberta nova — estou aprendendo muitos recursos diferentes
+                            e sinto que evoluo um pouquinho a cada dia. <br>Esse projeto é parte do meu aprendizado em HTML e CSS, e logo
+                            pretendo me aventurar também por JavaScript. <br>Pode não estar perfeito ainda, mas é feito com carinho e muita
+                            vontade de aprender ✨.
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>GitHub</legend>
+                        <p>Para acessar mais projetos pessoais <a href="https://github.com/lopreti" target="_blank"> acesse aqui meu
+                        GitHub!</a> </p>
+                    </fieldset>
+                </form>
+            </section>
+            <!--Projetos-->
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Outros Projetos...</legend>
+                          <div class="projetos">
+                            <a href="https://github.com/lopreti/projeto-cantina" target="_blank" class="projeto">
+                                <h2>Projeto Cantina</h2>
+                                <p>Sistema de vendas e controle de estoque para cantinas escolares, desenvolvido como projeto final do Primeiro Semestre do curso técnico de Desenvolvimento de Sistemas no SENAI.</p>
+                            </a>
+
+                            <a href="https://github.com/lopreti/podcast-ia-generativa" target="_blank" class="projeto">
+                                <h2>Podcast com Ia Generativa</h2>
+                                <p>Podcast criado com ferramentas de IA generativa durante o bootcamp da DIO, envolvendo roteirização, personagens fictícios, vozes artificiais e capa personalizada, resultando em um episódio original sobre tecnologia e criatividade.</p>
+                            </a>
+
+                            <a href="https://github.com/lopreti/API-de-alunos" target="_blank" class="projeto">
+                                <h2>API de Alunos</h2>
+                                <p>API de gerenciamento de alunos desenvolvida em Node.js e Express como prática acadêmica, implementando operações CRUD e validações básicas de dados, com armazenamento em memória.</p>
+                            </a>
+                        </div>
+                    </fieldset>
+                </form> 
+            </section>
+        </main>
+    </div>
+      <footer>    
+            <p class="paragrafo-footer">Para conhecer meu portifólio completo <a href="https://lopreti.github.io/meu-portf-lio/" target="_blank">clique aqui!</a></p>
+        </footer>
+    </body>
 </html>
