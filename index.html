@@ -36,7 +36,7 @@
             <section>
                 <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" significa ___ </h2>
                 <form>
-                    <input type="text" id="p2" name="pergunta2" placeholder="Digite aqui...">
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite aqui..." required>
                 </form>
                 
             </section>
@@ -51,7 +51,7 @@
             <section>
                 <h2>Pergunta 4: Em que ano HTML lançou sua primeira versão?</h2>
                 <form>
-                    <input type="date" id="p4" name="pergunta4">
+                    <input type="text" id="p4" name="pergunta4">
                 </form>
             </section>
             <!--Pergunta 5: seleção múltipla-->
@@ -72,7 +72,7 @@
             <section>
                 <h2>Pergunta 6: Faça o upload de um arquivo contendo código html:</h2>
                 <form>
-                    <input type="file" id="6" name="pergunta6">
+                    <input type="file" id="p6" name="pergunta6">
                 </form>
             </section>
             <!--Pergunta 7:menu suspenso -->
@@ -96,8 +96,12 @@
                     <figcaption>Figura 1: logotipo de uma linguagem de programação</figcaption>
                 </figure>
                 <form >
-                    <input type="text" id="8" name="pergunta8" placeholder="Digite aqui...">
+                    <input type="text" id="p8" name="pergunta8" placeholder="Digite aqui...">
                 </form>
+            </section>
+
+            <section>
+                <button onclick="enviarRespostas()">ENVIAR RESPOSTAS</button>
             </section>
             <!--Tabela Pontuação-->
             <section>
@@ -137,7 +141,7 @@
                         <li>Domínio</li>
                         <li>arey/375*@ (exemplo de senha)</li>
                         <li>1991</li>
-                        <li>C# e Python</li>
+                        <li>JavaScript,C# e Python</li>
                         <li>Arquivo deve ser extensão .html</li>
                         <li>type</li>   
                         <li>Java</li>
@@ -165,5 +169,6 @@
             <p class="paragrafo-footer">&copy;Quiz de Programação. Todos os direitos reservados</p>
             <p class="paragrafo-footer">Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui!</a></p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
