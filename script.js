@@ -21,7 +21,7 @@ function enviarRespostas() {
     }
 
     const p4 = document.getElementById('p4').value.trim()
-    if (p4 == '1993') {
+    if (p4 == '1991') {
         pontos++
     }
 
@@ -33,7 +33,7 @@ function enviarRespostas() {
     }
 
     const p6 = document.getElementById('p6').files[0]
-    if(p6.name.toLowerCase().endsWith(".html")){
+    if (p6 && p6.name.toLowerCase().endsWith(".html")) {
         pontos++
     }
 
@@ -43,14 +43,12 @@ function enviarRespostas() {
     }
 
     const p8 = document.getElementById('p8').value.trim().toLowerCase()
-    if (p8 == "java"){
+    if (p8 == "java") {
         pontos++
     }
-
-    alert(pontos)
-
+    document.getElementById("pontuacao").innerText = "Sua pontuação foi: " + pontos
 }
 
-function limparTela() {
-
+function limparRespostas(){
+    
 }
